@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: robot
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: deepseek-r1:7b
+#      embedding:
+#        options:
+#          model: text-embedding-v3
+#          dimensions: 1024
+
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3307/ai?serverTimezone=Asia/Shanghai&useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&useServerPrepStmts=false
+#    username: root
+#    password: 你猜猜看
+#logging:
+#  level:
+#    org.springframework.ai: debug # AI对话的日志级别
+#    com.xbs.springaiopenai: debug # 本项目的日志级别
+#server:
+#  port: 8087
+#mybatis:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
